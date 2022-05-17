@@ -26,3 +26,12 @@ RNN model
 
 Since the time series data is autocorrelated, i.e. the day i data may related to day i - 1, the day i - 1 data may related to day i - 2. The RNN model can simulate this property by adding the previous data with weights and bias to the new data in the same layer. The relation between these data is not only perpendicular, but also parallel. That is why RNN works for time series time like stock or NLP. Three kinds of RNN will be used. They are Simple RNN (SimpleRNN), Long Short-term Memory (LSTM) and Gate Recurrent Unit (GRU). We set 5 as the timestep.
 
+
+Mod1: Using different data sizes and timestep for training
+Mod3: Normalization and use sigmoid function
+Mod4: Model selection method and hyperparameters tuning
+Mod5: Using different architecture of model, 
+1:Conv1d as data preprocessing with a dense layer. 
+2: Using Bidirectional model
+Mod6: Mix different methods---method 1, 4
+
