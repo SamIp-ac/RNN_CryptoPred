@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import seaborn as sns
 
-cwd = os.path.join(os.getcwd(), 'SEEM2460_Project_RNN')
+cwd = os.path.join(os.getcwd(), 'Crypto_Data')
 os.chdir(cwd)
 whole = pd.read_csv('BTC-USD.csv')
 dataframe = pd.read_csv('BTC-USD.csv').iloc[:, 1:]
