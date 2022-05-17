@@ -76,7 +76,7 @@ class RNN_model:
         return (evaluate)
 
 
-cwd = os.path.join(os.getcwd(), 'SEEM2460_Project_RNN')
+cwd = os.path.join(os.getcwd(), 'Crypto_Data')
 os.chdir(cwd)
 
 
